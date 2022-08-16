@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include<stdio.h>// to include standard input output header file
+#include<stdlib.h>// to include standard library header file
 int top=-1;
 void push(int*stack,int max,int ele){
 	if(top==max)
